@@ -1,0 +1,38 @@
+body {
+    background: #000000;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+}
+
+.resultado {
+    padding: 1em;
+}
+
+.container__caixa{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 30px;
+    border: 2px solid white;
+    padding: 2%;
+    background: blue;
+    box-shadow: 5px 5px 10px white;
+    margin-bottom: 30px;
+    align-items: center;
+    border-radius: 40px;
+}
